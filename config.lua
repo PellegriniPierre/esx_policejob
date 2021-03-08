@@ -5,21 +5,21 @@ Config.MarkerType                 = {Cloakrooms = 20, Armories = 21, BossActions
 Config.MarkerSize                 = {x = 1.5, y = 1.5, z = 0.5}
 Config.MarkerColor                = {r = 50, g = 50, b = 204}
 
-Config.EnablePlayerManagement     = false -- Enable if you want society managing.
+Config.EnablePlayerManagement     = true -- Enable if you want society managing.
 Config.EnableArmoryManagement     = false
-Config.EnableESXIdentity          = false -- Enable if you're using esx_identity.
-Config.EnableLicenses             = false -- Enable if you're using esx_license.
+Config.EnableESXIdentity          = true -- Enable if you're using esx_identity.
+Config.EnableLicenses             = true -- Enable if you're using esx_license.
 
 Config.EnableHandcuffTimer        = true -- Enable handcuff timer? will unrestrain player after the time ends.
 Config.HandcuffTimer              = 10 * 60000 -- 10 minutes.
 
-Config.EnableJobBlip              = false -- Enable blips for cops on duty, requires esx_society.
+Config.EnableJobBlip              = true -- Enable blips for cops on duty, requires esx_society.
 Config.EnableCustomPeds           = false -- Enable custom peds in cloak room? See Config.CustomPeds below to customize peds.
 
-Config.EnableESXService           = false -- Enable esx service?
+Config.EnableESXService           = true -- Enable esx service?
 Config.MaxInService               = -1 -- How much people can be in service at once?
 
-Config.Locale                     = 'en'
+Config.Locale                     = 'fr'
 
 Config.PoliceStations = {
 
